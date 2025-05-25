@@ -1,7 +1,7 @@
 "# uploads_artifacts_to_s3" 
 
 
-Aim : to Build and store artifacts into AWS S3 with vesioning feature. 
+Aim : Automate Build ( git scm )  and store artifacts into AWS S3 with vesioning feature. 
 
 
 step1: load project
