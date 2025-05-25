@@ -3,6 +3,8 @@
 
 Aim : Automate Build ( git scm )  and store artifacts into AWS S3 with vesioning feature. 
 
+---------------------FREESTYLE WAY ---------------------------
+
 
 step1: load project
 
@@ -32,4 +34,14 @@ step3: create a freestyle job and configure  below ways
  ![image](https://github.com/user-attachments/assets/2c235878-13bd-4451-89a7-91860d67a4f2)
 
 
-  
+  ---------------------PIPELINE SCRIPT  ---------------------------
+
+1: add github webhooks wit payload as <23.23.2.23:8080>/github-webhook/
+
+enable 
+
+![image](https://github.com/user-attachments/assets/5e94d7f7-fb79-4ca5-9a53-39b6c3d31b1d)
+
+
+2. 
+   
