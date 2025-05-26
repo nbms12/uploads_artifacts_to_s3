@@ -1,0 +1,25 @@
+pipeline {
+agent any
+stages {
+    stage('S3download') {
+      steps {
+    withAWS(credentials:'aws-cred') {
+        s3Download(file: 'builds/maven-web-app.war', bucket: 'mybkt-2tier', force: true, path: 'target/maven-web-app.war')
+      }
+    }
+    }
+
+    stage('Deploy to Tomcat') {
+            steps {
+                deploy adapters: [tomcat9(
+                    credentialsId: 'tomcat-creds',
+                    url: 'http://43.204.142.215:9090/'
+                )], 
+                war: 'builds/maven-web-app.war',  // Path to WAR file
+                contextPath: 'myapp'        // App context (optional)
+            }
+        }
+    
+}   
+    
+}
