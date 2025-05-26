@@ -7,7 +7,7 @@
     <style>
         /* Global Styles */
         :root {
-            --primary: #2c3e50;
+            --primary: #8c18e8;
             --secondary: #3498db;
             --light: #ecf0f1;
             --dark: #2c3e50;
@@ -34,7 +34,7 @@
         
         /* Header */
         header {
-            background-color: var(--primary);
+            background-color: #8c18e8;
             color: white;
             padding: 1rem 0;
             position: fixed;
