@@ -1,4 +1,4 @@
- ------git ,maven, jdk install --------
+ ------git ,maven, jdk install --------.
 
  sudo apt update
  sudo apt install git
