@@ -3,6 +3,14 @@
 
 Aim : Automate Build ( git scm )  and store artifacts into AWS S3 with vesioning feature. 
 
+SKills and hands on expereince gained: 
+
+1. Complete CI/CD Setup for java application using jenkins freestyle and Pipeline scripts
+
+2. Debug Pipeline script issues
+
+3. Cloudwatch metrics analysis and monitoring
+
 ---------------------FREESTYLE WAY ----------------------------
 
     
