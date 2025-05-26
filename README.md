@@ -3,7 +3,7 @@
 
 Aim : Automate Build ( git scm )  and store artifacts into AWS S3 with vesioning feature. 
 
----------------------FREESTYLE WAY ---------------------------
+---------------------FREESTYLE WAY ----------------------------
 
     
 step1: load project 
