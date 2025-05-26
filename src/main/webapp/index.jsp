@@ -24,7 +24,7 @@
         body {
             line-height: 1.6;
             color: var(--dark);
-            background-color: #f9f9f9;
+            background-color: #8c18e8;
         }
         
         a {
