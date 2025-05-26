@@ -6,7 +6,7 @@ Aim : Automate Build ( git scm )  and store artifacts into AWS S3 with vesioning
 ---------------------FREESTYLE WAY ---------------------------
 
     
-step1: load project
+step1: load project 
 
 step2: create IAM User and AWS S3 full acess and crate access keys for authentication from jenkins server 
 
