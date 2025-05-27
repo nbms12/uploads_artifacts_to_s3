@@ -4,7 +4,9 @@
  sudo apt install git
 
 sudo apt install maven
+
 sudo apt update
+
 sudo apt install openjdk-17-jdk
 
 -----------------------------------------
